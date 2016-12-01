@@ -59,6 +59,7 @@
     <Compile Include="Form.Designer.cs">
       <DependentUpon>Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameContext.cs" />
     <Compile Include="Menu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -97,6 +98,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TheCurseOfTheSurvivalMigrant\TheCurseOfTheSurvivalMigrant.csproj">
+      <Project>{05532548-d1ef-4a92-a702-1ab303626180}</Project>
+      <Name>TheCurseOfTheSurvivalMigrant</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

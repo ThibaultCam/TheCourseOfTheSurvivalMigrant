@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Answer.cs" />
+    <Compile Include="AnswerTypes\Answer.cs" />
+    <Compile Include="AnswerTypes\AnswerRemoveFiveSocial.cs" />
     <Compile Include="Enigma.cs" />
     <Compile Include="EnigmaLibrary.cs" />
     <Compile Include="Player.cs" />

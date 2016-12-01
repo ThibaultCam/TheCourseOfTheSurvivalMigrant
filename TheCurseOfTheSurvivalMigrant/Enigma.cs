@@ -1,12 +1,10 @@
 ﻿using System.Collections.Generic;
+using TheCurseOfTheSurvivalMigrant.AnswerTypes;
 
 namespace TheCurseOfTheSurvivalMigrant
 {
     public class Enigma
     {
-        private string _question;
-        private List<Answer> _answers;
-
         public string Question { get; set; }
         public List<Answer>Answers { get; set; }
     }

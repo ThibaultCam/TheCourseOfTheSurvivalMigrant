@@ -1,25 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace TheCurseOfTheSurvivalMigrant.GUI
+﻿namespace TheCurseOfTheSurvivalMigrant.GUI
 {
     public partial class Form : System.Windows.Forms.Form
     {
-        Controller ct;
+        Controller _controller;
+        GameContext _context;
+
         public Form()
         {
             InitializeComponent();
-            ct = new Controller(this);
-            Controls.Add(ct.GetGame());
-            Controls.Add(ct.GetMenu());
+            _context = new GameContext();
+            _controller = new Controller(this);
             ShowMenu();
+        }
+
+        public GameContext Context
+        {
+            get { return _context; }
+            set { _context = value; }
         }
 
         public void QuitGame()
@@ -29,14 +26,14 @@ namespace TheCurseOfTheSurvivalMigrant.GUI
 
         public void StartGame()
         {
-            ct.GetGame().Show();
-            ct.GetMenu().Hide();
+            _controller.Game.Show();
+            _controller.Menu.Hide();
         }
 
         public void ShowMenu()
         {
-            ct.GetGame().Hide();
-            ct.GetMenu().Show();
+            _controller.Game.Hide();
+            _controller.Menu.Show();
         }
     }
 }

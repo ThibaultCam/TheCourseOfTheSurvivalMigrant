@@ -1,37 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TheCurseOfTheSurvivalMigrant.GUI
+﻿namespace TheCurseOfTheSurvivalMigrant.GUI
 {
     public class Controller
     {
-        Form _f;
-        Game _g;
-        Menu _m;
+        Form _form;
+        Game _game;
+        Menu _menu;
 
         public Controller(Form f)
         {
-            _f = f;
-            _g = new Game(this);
-            _m = new Menu(this);
+            _form = f;
+            _game = new Game(this);
+            _menu = new Menu(this);
+            _form.Controls.Add( _game );
+            _form.Controls.Add( _menu );
+        }
+        public Form Form
+        {
+            get { return _form; }
         }
 
-        public Form GetForm()
+        public Game Game
         {
-            return _f;
+            get { return _game; }
         }
 
-        public Game GetGame()
+        public Menu Menu
         {
-            return _g;
-        }
-
-        public Menu GetMenu()
-        {
-            return _m;
+            get { return _menu; }
         }
     }
 }

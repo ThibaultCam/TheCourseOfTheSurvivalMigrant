@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.panelText = new System.Windows.Forms.Panel();
+            this.EnigmaLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.progressBarSocial = new System.Windows.Forms.ProgressBar();
             this.progressBarMoney = new System.Windows.Forms.ProgressBar();
             this.progressBarLife = new System.Windows.Forms.ProgressBar();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.menuButton = new System.Windows.Forms.Button();
             this.panelText.SuspendLayout();
@@ -55,11 +55,22 @@
             // panelText
             // 
             this.panelText.BackColor = System.Drawing.Color.DarkOrange;
-            this.panelText.Controls.Add(this.label5);
-            this.panelText.Location = new System.Drawing.Point(0, 544);
+            this.panelText.Controls.Add(this.EnigmaLabel);
+            this.panelText.Location = new System.Drawing.Point(0, 670);
+            this.panelText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelText.Name = "panelText";
-            this.panelText.Size = new System.Drawing.Size(1080, 176);
+            this.panelText.Size = new System.Drawing.Size(1440, 217);
             this.panelText.TabIndex = 0;
+            // 
+            // EnigmaLabel
+            // 
+            this.EnigmaLabel.AutoSize = true;
+            this.EnigmaLabel.Location = new System.Drawing.Point(671, 107);
+            this.EnigmaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.EnigmaLabel.Name = "EnigmaLabel";
+            this.EnigmaLabel.Size = new System.Drawing.Size(45, 17);
+            this.EnigmaLabel.TabIndex = 7;
+            this.EnigmaLabel.Text = "{Text}";
             // 
             // panel1
             // 
@@ -71,135 +82,141 @@
             this.panel1.Controls.Add(this.progressBarSocial);
             this.panel1.Controls.Add(this.progressBarMoney);
             this.panel1.Controls.Add(this.progressBarLife);
-            this.panel1.Location = new System.Drawing.Point(380, 0);
+            this.panel1.Location = new System.Drawing.Point(507, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(263, 110);
+            this.panel1.Size = new System.Drawing.Size(351, 135);
             this.panel1.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(161, 101);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 17);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Argent";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(202, 82);
+            this.label3.Location = new System.Drawing.Point(269, 101);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 13);
+            this.label3.Size = new System.Drawing.Size(46, 17);
             this.label3.TabIndex = 5;
             this.label3.Text = "Social";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(121, 82);
+            this.label2.Location = new System.Drawing.Point(161, 101);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.Size = new System.Drawing.Size(0, 17);
             this.label2.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 82);
+            this.label1.Location = new System.Drawing.Point(56, 101);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(22, 13);
+            this.label1.Size = new System.Drawing.Size(28, 17);
             this.label1.TabIndex = 3;
             this.label1.Text = "Vie";
             // 
             // progressBarSocial
             // 
-            this.progressBarSocial.Location = new System.Drawing.Point(205, 3);
+            this.progressBarSocial.Location = new System.Drawing.Point(273, 4);
+            this.progressBarSocial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBarSocial.Name = "progressBarSocial";
-            this.progressBarSocial.Size = new System.Drawing.Size(19, 72);
+            this.progressBarSocial.Size = new System.Drawing.Size(25, 89);
             this.progressBarSocial.TabIndex = 2;
             // 
             // progressBarMoney
             // 
-            this.progressBarMoney.Location = new System.Drawing.Point(124, 3);
+            this.progressBarMoney.Location = new System.Drawing.Point(165, 4);
+            this.progressBarMoney.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBarMoney.Name = "progressBarMoney";
-            this.progressBarMoney.Size = new System.Drawing.Size(19, 72);
+            this.progressBarMoney.Size = new System.Drawing.Size(25, 89);
             this.progressBarMoney.TabIndex = 1;
             // 
             // progressBarLife
             // 
-            this.progressBarLife.Location = new System.Drawing.Point(45, 3);
+            this.progressBarLife.Location = new System.Drawing.Point(60, 4);
+            this.progressBarLife.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBarLife.Name = "progressBarLife";
-            this.progressBarLife.Size = new System.Drawing.Size(19, 72);
+            this.progressBarLife.Size = new System.Drawing.Size(25, 89);
             this.progressBarLife.TabIndex = 0;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(121, 82);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Argent";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(503, 87);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 13);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "{Text}";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.Info;
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Location = new System.Drawing.Point(30, 469);
+            this.panel2.Location = new System.Drawing.Point(40, 577);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(275, 102);
+            this.panel2.Size = new System.Drawing.Size(367, 126);
             this.panel2.TabIndex = 2;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(159, 55);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(72, 17);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "{Answer1}";
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Info;
             this.panel3.Controls.Add(this.label7);
-            this.panel3.Location = new System.Drawing.Point(404, 469);
+            this.panel3.Location = new System.Drawing.Point(539, 577);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(275, 102);
+            this.panel3.Size = new System.Drawing.Size(367, 126);
             this.panel3.TabIndex = 3;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(149, 55);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(72, 17);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "{Answer2}";
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.Info;
             this.panel4.Controls.Add(this.label8);
-            this.panel4.Location = new System.Drawing.Point(771, 469);
+            this.panel4.Location = new System.Drawing.Point(1028, 577);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(275, 102);
+            this.panel4.Size = new System.Drawing.Size(367, 126);
             this.panel4.TabIndex = 3;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(119, 45);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 13);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "{Answer1}";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(112, 45);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 13);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "{Answer2}";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(118, 45);
+            this.label8.Location = new System.Drawing.Point(157, 55);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 13);
+            this.label8.Size = new System.Drawing.Size(72, 17);
             this.label8.TabIndex = 10;
             this.label8.Text = "{Answer2}";
             // 
             // menuButton
             // 
-            this.menuButton.Location = new System.Drawing.Point(918, 0);
+            this.menuButton.Location = new System.Drawing.Point(1224, 0);
+            this.menuButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.menuButton.Name = "menuButton";
-            this.menuButton.Size = new System.Drawing.Size(162, 61);
+            this.menuButton.Size = new System.Drawing.Size(216, 75);
             this.menuButton.TabIndex = 4;
             this.menuButton.Text = "Menu";
             this.menuButton.UseVisualStyleBackColor = true;
@@ -207,7 +224,7 @@
             // 
             // Game
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.menuButton);
@@ -216,8 +233,9 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelText);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Game";
-            this.Size = new System.Drawing.Size(1080, 720);
+            this.Size = new System.Drawing.Size(1440, 886);
             this.panelText.ResumeLayout(false);
             this.panelText.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -243,7 +261,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label EnigmaLabel;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel3;

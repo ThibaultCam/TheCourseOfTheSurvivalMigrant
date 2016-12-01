@@ -12,12 +12,12 @@ namespace TheCurseOfTheSurvivalMigrant.GUI
 {
     public partial class Menu : UserControl
     {
-        Controller _c;
+        Controller _controller;
         Form _form;
         public Menu(Controller c)
         {
-            _c = c;
-            _form = _c.GetForm();
+            _controller = c;
+            _form = _controller.Form;
             InitializeComponent();
         }
 
