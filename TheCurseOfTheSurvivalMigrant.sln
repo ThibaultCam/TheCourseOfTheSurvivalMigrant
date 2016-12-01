@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCurseOfTheSurvivalMigrant.GUI", "TheCurseOfTheSurvivalMigrant.GUI\TheCurseOfTheSurvivalMigrant.GUI.csproj", "{29A5EE16-033F-4060-AE91-7C0AE1727840}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA95C932-F357-4DCF-87A0-D0E4A8F330FD}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCurseOfTheSurvivalMigrant", "TheCurseOfTheSurvivalMigrant\TheCurseOfTheSurvivalMigrant.csproj", "{05532548-D1EF-4A92-A702-1AB303626180}"
 EndProject
 Global
